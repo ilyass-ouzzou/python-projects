@@ -1,4 +1,6 @@
 import random
+from colorama import Fore, Back, Style
+
 def draw_simulation(group:list):
     if(group == groupA):
         pass
@@ -25,33 +27,33 @@ pot4 = ['Cameroon', 'Canada', 'Ecuador', 'Saudi Arabia', 'Ghana', 'UEFA', 'AFC/C
 
 groupA = []
 groupA.append('Qatar')
-print("Group A : {}".format(draw_simulation(groupA)))
+print(Fore.BLUE + "Group A : {}".format(draw_simulation(groupA)))
 groupB = []
-print("Group B : {}".format(draw_simulation(groupB)))
+print(Fore.RED + "Group B : {}".format(draw_simulation(groupB)))
 groupC = []
-print("Group C : {}".format(draw_simulation(groupC)))
+print(Fore.YELLOW + "Group C : {}".format(draw_simulation(groupC)))
 groupD = []
-print("Group D : {}".format(draw_simulation(groupD)))
+print(Fore.CYAN + "Group D : {}".format(draw_simulation(groupD)))
 groupE = []
-print("Group E : {}".format(draw_simulation(groupE)))
+print(Fore.GREEN + "Group E : {}".format(draw_simulation(groupE)))
 groupF = []
-print("Group F : {}".format(draw_simulation(groupF)))
+print(Fore.MAGENTA + "Group F : {}".format(draw_simulation(groupF)))
 groupG = []
-print("Group G : {}".format(draw_simulation(groupG)))
+print(Fore.LIGHTYELLOW_EX + "Group G : {}".format(draw_simulation(groupG)))
 groupH = []
-print("Group H : {}".format(draw_simulation(groupH)))
+print(Fore.LIGHTGREEN_EX + "Group H : {}".format(draw_simulation(groupH)))
 
 
-"""  
-Output:
+"""
 
-Group A : ['Qatar', 'Mexico', 'Iran', 'Saudi Arabia']
-Group B : ['Portugal', 'Switzerland', 'Serbia', 'UEFA']
-Group C : ['Spain', 'Croatia', 'Poland', 'Ghana']
-Group D : ['Belgium', 'Uruguay', 'South Korea', 'CONCACAF/OFC']
-Group E : ['Argentina', 'Netherlands', 'Tunisia', 'AFC/CONMEBOL']
-Group F : ['France', 'United States', 'Japan', 'Ecuador']
-Group G : ['Brazil', 'Germany', 'Morocco', 'Cameroon']         :( sad for Moroccans :(
-Group H : ['England', 'Denmark', 'Senegal', 'Canada']
+Group A : ['Qatar', 'Denmark', 'South Korea', 'Saudi Arabia']
+Group B : ['France', 'United States', 'Serbia', 'Ghana']
+Group C : ['Portugal', 'Netherlands', 'Tunisia', 'CONCACAF/OFC']
+Group D : ['Argentina', 'Germany', 'Japan', 'AFC/CONMEBOL']
+Group E : ['Spain', 'Uruguay', 'Morocco', 'UEFA']
+Group F : ['Belgium', 'Mexico', 'Iran', 'Canada']
+Group G : ['England', 'Switzerland', 'Senegal', 'Ecuador']
+Group H : ['Brazil', 'Croatia', 'Poland', 'Cameroon']
+
 
 """
