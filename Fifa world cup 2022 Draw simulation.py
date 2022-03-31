@@ -51,7 +51,7 @@ Group C : ['Spain', 'Croatia', 'Poland', 'Ghana']
 Group D : ['Belgium', 'Uruguay', 'South Korea', 'CONCACAF/OFC']
 Group E : ['Argentina', 'Netherlands', 'Tunisia', 'AFC/CONMEBOL']
 Group F : ['France', 'United States', 'Japan', 'Ecuador']
-Group G : ['Brazil', 'Germany', 'Morocco', 'Cameroon']
+Group G : ['Brazil', 'Germany', 'Morocco', 'Cameroon']         :( sad for Moroccans :(
 Group H : ['England', 'Denmark', 'Senegal', 'Canada']
 
 """
