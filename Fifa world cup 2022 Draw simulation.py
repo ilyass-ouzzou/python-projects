@@ -21,18 +21,18 @@ pot3 = ['Senegal', 'Iran', 'Japan', 'Morocco', 'Serbia', 'Poland', 'South Korea'
 pot4 = ['Cameroon', 'Canada', 'Ecuador', 'Saudi Arabia', 'Ghana', 'UEFA', 'AFC/CONMEBOL', 'CONCACAF/OFC']
 
 groupA = []
-print(draw_simulation(groupA))
+print("Group A : {}".format(draw_simulation(groupA)))
 groupB = []
-print(draw_simulation(groupB))
+print("Group B : {}".format(draw_simulation(groupB)))
 groupC = []
-print(draw_simulation(groupC))
+print("Group C : {}".format(draw_simulation(groupC)))
 groupD = []
-print(draw_simulation(groupD))
+print("Group D : {}".format(draw_simulation(groupD)))
 groupE = []
-print(draw_simulation(groupE))
+print("Group E : {}".format(draw_simulation(groupE)))
 groupF = []
-print(draw_simulation(groupF))
+print("Group F : {}".format(draw_simulation(groupF)))
 groupG = []
-print(draw_simulation(groupG))
+print("Group G : {}".format(draw_simulation(groupG)))
 groupH = []
-print(draw_simulation(groupH))
+print("Group H : {}".format(draw_simulation(groupH)))
