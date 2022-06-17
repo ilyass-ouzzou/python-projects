@@ -1,0 +1,33 @@
+# Basic calculator
+
+def calcul(num1, num2, operation):
+	if operation == 1:
+		print(num1, "+", num2, "=",
+			  num1 + num2)
+	if operation == 2:
+		print(num1, "-", num2, "=",
+			  num1 - num2)
+	if operation == 3:
+		print(num1, "*", num2, "=",
+			  num1 * num2)
+	if operation == 4:
+		print(num1, "/", num2, "=",
+			  num1 / num2)
+
+
+print("Please select the operation you want to execute : \n" 
+		"1. Add\n" 
+		"2. Subtract\n" 
+		"3. Multiply\n" 
+		"4. Divide\n")
+
+
+select = int(input("Select operations form 1, 2, 3, 4 :"))
+
+number_1 = int(input("Enter first number: "))
+number_2 = int(input("Enter second number: "))
+
+if select in [1, 2, 3, 4]:
+	calcul(number_1, number_2, select)
+else:
+	print("Invalid input")
